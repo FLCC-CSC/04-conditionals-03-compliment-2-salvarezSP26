@@ -22,13 +22,13 @@ def compliment():
         
     compliment = 'You have wonderful eyes.'
     no_compliment ='No compliment for you!'
-    question = input (f'Would you like a compliment?')
+    question = input ('Would you like a compliment? ')
 
     if question == 'yes':
-        print (f'{compliment} \nThank you for playing.') 
+        print (f'{compliment}\nThank you for playing.') 
 
     elif question != 'yes':
-        print (f'{no_compliment} \nThank you for playing.')
+        print (f'{no_compliment}\nThank you for playing.')
 
 main()
 
