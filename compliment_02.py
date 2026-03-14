@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Shanelle Alvarez
+# DATE: March 2, 2026
+# BRIEF DESCRIPTION: Compliment 2
 
 
 
@@ -15,6 +15,22 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    compliment()
+
+def compliment():
+        
+    compliment = 'You have wonderful eyes.'
+    no_compliment ='No compliment for you!'
+    question = input ('Would you like a compliment? ')
+
+    if question == 'yes':
+        print (f'{compliment}\nThank you for playing.') 
+
+    elif question != 'yes':
+        print (f'{no_compliment}\nThank you for playing.')
+
+main()
 
 
 
@@ -73,7 +89,7 @@ Thank you for playing.
 
 
 
-
+NO
 
 
 
